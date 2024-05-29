@@ -165,6 +165,7 @@ ul,ol {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -176,6 +177,17 @@ ul,ol {
 
 .skills {
   padding: 120px 0;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .title-skills {
@@ -191,7 +203,7 @@ ul,ol {
   overflow: hidden;
 }
 
-.title-skills {
+/* .title-skills { 
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -200,7 +212,7 @@ ul,ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-}
+}*/
 
 .list-skills {
   list-style-type: none;
