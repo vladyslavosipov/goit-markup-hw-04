@@ -529,6 +529,7 @@ ul,ol {
     gap: 16px;
     width: 40px;
     height: 40px;
+    list-style-type: none;
   }
 
   .footer-list-item {
