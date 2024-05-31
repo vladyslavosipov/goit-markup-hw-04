@@ -584,3 +584,7 @@ ul,ol {
   /* margin-bottom: 8px; */
 }
 
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
